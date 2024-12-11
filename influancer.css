@@ -211,13 +211,6 @@ gap: 30px;
 }
 .footer-icon .icon{
 font-size: 1.4rem;
-
-}
-
-
-.hidden{
-display: none;
-
 }
 
 @media screen and (max-width:576px) {
