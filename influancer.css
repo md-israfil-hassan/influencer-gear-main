@@ -1,0 +1,367 @@
+/* google font open Sens style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", serif;
+}
+
+:root{
+--primary-color:#3A3A3A;
+--font-witdh:700;
+--btn-primary-color:#E02C6D;
+}
+
+/* header Nav Style */
+
+nav{
+    display: flex;
+justify-content: space-between;
+margin: 50px 50px 0px 50px;
+}
+nav h2{
+color: var(--primary-color);
+font-weight: var(--font-witdh);
+}
+nav ul{
+display: flex;
+gap: 40px;
+}
+nav a{
+font-weight: var(--font-witdh);
+    color:var(--primary-color);
+}
+.nav-icon{
+font-size: 30px;
+}
+nav li , a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* /header camera-influencer style */
+
+.influencer-container{
+display: flex;
+margin: 80px;
+}
+
+.influencer-content{
+margin-top: 70px;
+}
+
+.influancer-title{
+font-size: 3.3rem;
+color: var(--primary-color);
+font-weight: var(--font-witdh);
+height: 35%;
+}
+
+.content-discription{
+font-size: 1rem;
+color: var(--primary-color);
+font-weight: var(--font-witdh);
+width: 570px;
+}
+
+.influencer-btn{
+background-color: var(--btn-primary-color);
+font-weight: var(--font-witdh);
+color: #fff;
+border-radius: 25px;
+font-size: 1rem;
+padding: 11px 20px;
+border:0px;
+cursor: pointer;
+}
+
+.influencer-camera{
+background-image: url('images/Circle\ design.svg');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+
+/* website-icon */
+.website-icon{
+margin: 150px 100px 100px 100px;
+box-shadow: 0px 0px 15px 2px #59585812;
+border-radius: 10px;
+padding: 20px 0px ;
+}
+.icon-container img{
+    cursor: pointer;
+margin-left: 50px;
+}
+
+/* main section style */
+
+.collection h1{
+text-align: center;
+    color: var(--primary-color);
+}
+.collection-container{
+    margin:40px 200px 20px 200px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 30px;
+
+}
+.card{
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 20px 2px #5958582a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card img{
+margin: 15px;
+    width: 90%;
+}
+
+.card h2{
+    margin-top: -6px;
+    height: 15px;
+color: var(--primary-color);
+font-weight: 600;
+}
+
+.card h3{
+color: var(--primary-color);
+font-weight: 500;
+}
+
+.card p{
+color: var(--primary-color);
+font-weight: 500;
+font-size: 11px;
+}
+
+.card, h2, h3, p, .rateing{
+margin-left: 8px;
+
+}
+.collection h5{
+text-align: end;
+margin-top: 50px;
+margin-right: 200px;
+font-size: 0.9rem;
+font-weight:700;
+color: #E02C6D;
+}
+
+/* featured section */
+
+.featured-container{
+display: flex;
+gap: 50px;
+margin: 80px 80px 50px 130px;
+}
+
+
+.featured-title{
+    width: 600px;
+font-size: 2rem;
+font-weight: 800;
+color: var(--primary-color);
+height: 35px;
+}
+
+.featured-discription{
+font-size:15px;
+color: var(--primary-color);
+}
+.featured-btn{
+background-color: var(--btn-primary-color);
+color:#FFF ;
+border: 0px;
+border-radius: 2px;
+padding: 10px 32px;
+}
+
+.featured-img img{
+width: 100%;
+
+}
+
+/* Footer section */
+
+footer{
+    text-align: center;
+    color: #FFF;
+background-color:#0A0826 ;
+padding:40px 0px 90px ;
+}
+.footer-title{
+font-size: 2rem;
+font-weight: var(--font-witdh);
+height: 25px;
+
+}
+.footer-discription{
+/* height: 30px; */
+font-size: 1.1rem;
+font-weight: 300;
+}
+
+.footer-icon{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.footer-icon .icon{
+font-size: 1.4rem;
+
+}
+
+
+.hidden{
+display: none;
+
+}
+
+@media screen and (max-width:576px) {
+    .hidden{
+        display: none;
+        
+        }
+
+        nav{
+margin:auto ;
+
+}
+  nav h2{
+font-size: 1.2rem;
+
+  }
+  nav .nav-icon{
+font-size: 19px;
+margin-right: 9px;
+
+  }
+
+  .influencer-container{
+flex-direction: column-reverse;   
+ margin: 10px auto;
+    }
+    .influencer-content{
+        margin-top: 0px;
+        }
+        
+        .influancer-title{
+            margin-top: -15px;
+        font-size: 1.8rem;
+        font-weight: 900;
+        text-align: center;
+        height: 80px;
+        }
+        
+        .content-discription{
+            text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+        width: 95%;
+        }
+        
+        .influencer-btn{
+        margin:auto 90px ;
+        }
+        
+        .influencer-camera{
+        background-size: 80%;
+        }
+        
+.influencer-camera img{
+    margin: 50px;
+    width: 72%;
+
+}
+
+.website-icon{
+
+    text-align: center;
+    margin: 25px auto;
+    padding:0px ;
+    }
+    .icon-container img{
+        width: 55px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    }
+    
+    .collection h1{
+        margin: 30px auto;
+font-size: 1.1rem;
+        }
+
+        .collection-container{
+        margin:0px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        }        
+        .card h2{
+        color: black;
+        font-weight: 700;
+        }
+        .card h3{
+        color: black;
+        font-weight: 600;
+        }
+        .card p{
+        font-weight: 400;
+        }
+        .collection h5{
+            margin-right: 10px;
+        text-align: end;
+        margin-top: 23px;
+        }
+        .featured-container{
+          flex-direction:column-reverse;
+            gap: 25px;
+            margin: 5px;
+            }
+            .featured-title{
+                text-align: center;
+            margin: auto 20px;
+                width: 300px;
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: black;
+            height: 60px;
+            }
+            .featured-discription{
+                text-align: center;
+                font-size: 0.7rem;
+                /* width: 600px; */
+            }
+            .featured-btn{
+                margin: auto 100px;
+                margin-top: 20px;
+            }
+            .featured-img img{
+                margin: 10px;
+               width: 95%;
+            }
+            
+
+            .footer-title{
+            font-size: 1.1rem;
+            height: 15px;
+            }
+            .footer-discription{
+            font-size: 0.8rem;
+            }
+            .footer-icon{
+            gap: 10px;
+            }
+            .footer-icon .icon{
+            font-size: 1rem;
+            }
+               
+
+
+
+
+
+    
+}
